@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+ 	<head>
+	  	<meta charset="UTF-8">
+	  	<link rel="stylesheet" href="css/style.css">
+	  	<title>Document</title>
+	  	<meta charset="utf-8">
+	    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+ 	</head>
+ 	<body>
+  		<div id="header">
+			<span>Weather Forcast Application</span>
+			<br>
+			<form>
+				<input type="search" name="city" placeholder="Search City...." autocomplete="off">
+				<br><br>
+				<button name="" id="srch_btn">Search</button>
+			</form>	
+  		</div>
+
+  		<div id="container" class="hide">	
+			<div id="time_box">
+				<img src="https://via.placeholder.com/380x248" id="time">
+			</div>
+			<div id="detail">		
+				<div id="city">City</div>
+				<div id="condition">Clear</div>
+				<div id="temp">&deg;C 29</div>
+			</div>
+			<div style="background-color: #3e8fcd; height: 58px; border-bottom-left-radius: 7px; border-bottom-right-radius: 7px; text-align: center;">
+				<img src="images/icons/1.svg" id="weather_icon">
+			</div>
+  		</div>
+
+  		<script src="js/weather.js"></script>
+  		<script src="js/script.js"></script>
+ 	</body>
+</html>
